@@ -1,0 +1,41 @@
+button#submit {
+  margin: 8% 0 15% 0;
+  height: 40px;
+  width: 70%;
+}
+
+.tab {
+  overflow: hidden;
+  background-color: #ddd;
+  padding: 10px 10px 0px 10px;
+  display: flex;
+}
+
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+  width: 33%;
+  font-weight: 400;
+}
+
+.tabcontentenabled {
+  padding-top: 2%;
+  background-color: #ffffff;
+  min-height: 472px;
+}
+
+.tabcontentdisabled {
+  display: none;
+  padding-top: 2%;
+  background-color: #ffffff;
+  min-height: 472px;
+}
+.tablinksActive {
+  background-color: #ffffff !important;
+}
